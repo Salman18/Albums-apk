@@ -8,8 +8,11 @@
     "android-ubuntu": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "fetch": "^1.1.0",
     "react": "16.0.0-alpha.12",
-    "react-native": "0.48.3"
+    "react-native": "0.48.3",
+    "react-native-fetch": "^1.0.0"
   },
   "devDependencies": {
     "babel-jest": "21.0.2",
